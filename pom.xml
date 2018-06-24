@@ -643,30 +643,6 @@
 			<url>file://${user.home}/local-maven-publish-repository</url>
 		</snapshotRepository>
 	</distributionManagement>
-<profile>
- 
-	<id>purge</id>
 
-	<build>
-
-		<plugins>
-
-		<plugin>
-
-		<artifactId>maven-clean-plugin</artifactId>
-
-		<configuration>
-
-			<excludeDefaultDirectories>true</excludeDefaultDirectories>
-
-		</configuration>
-
-		</plugin>
-
-		</plugins>
-
-	</build>
- 
-</profile>
 	
 </project>
